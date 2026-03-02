@@ -1,0 +1,13 @@
+[project]
+name = "slack-cleaner"
+version = "0.1.0"
+description = "Script to clean up Slack channels by removing messages."
+readme = "README.md"
+authors = [
+    { name = "Ben Hayden", email = "hayden767@gmail.com" },
+]
+requires-python = ">=3.12"
+dependencies = [
+    "slack-cleaner2>=3.2.7,<4.0.0",
+    "python-dotenv>=1.1.0,<2.0.0",
+]
